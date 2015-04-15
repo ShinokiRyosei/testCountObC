@@ -9,6 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *label;
+    int number;
+    IBOutlet UIButton *btnplus;
+    IBOutlet UIButton *btnminus;
+}
+
+-(IBAction)plus;
+-(IBAction)minus;
+
+
+
 
 
 @end
